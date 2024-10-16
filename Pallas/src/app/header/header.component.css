@@ -3,11 +3,14 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #0b0d29;
+  z-index: 1000;
 }
 .navbar {
-  background-color: #0b0d29;
+  background-color: #010626;
   padding: 10px 0;
+  width: 100vw;
+  height: 120px;
+  position: fixed;
 }
 .navbar-brand {
   font-family: "Graduate", Courier, monospace;
