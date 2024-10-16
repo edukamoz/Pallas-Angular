@@ -1,0 +1,40 @@
+body {
+    background-color: #010626;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.highlight {
+    color: #00aaff;
+}
+
+.btn-custom {
+    background-color: #8000ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn-custom:hover {
+    background-color: #6600cc;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.text-container {
+    margin-right: 50px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}

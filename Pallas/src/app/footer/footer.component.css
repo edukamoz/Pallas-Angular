@@ -1,0 +1,44 @@
+body {
+    background-color: #0A1A4B;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    padding: 20px;
+}
+
+.footer h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .social-icons a {
+    margin-right: 10px;
+    color: white;
+    display: inline-block;
+}
+
+.footer .social-icons a:hover {
+    color: #ddd;
+}
+
+.footer .rights {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icon {
+    fill: white;
+}
