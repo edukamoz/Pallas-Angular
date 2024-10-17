@@ -39,6 +39,11 @@ body {
   font-size: 24px;
   margin-left: 5px;
 }
+.icon {
+  fill: white;
+  border-radius: 100%;
+  border: white 3px solid;
+}
 li {
   display: flex;
   align-items: center;
