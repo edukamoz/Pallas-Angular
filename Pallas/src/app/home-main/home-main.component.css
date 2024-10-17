@@ -1,3 +1,5 @@
+/* ------------ Home main ------------ */
+
 .home-main {
     background-color: #010626;
     color: #fff;
@@ -37,4 +39,41 @@
 .image-container img {
     max-width: 100%;
     height: auto;
+}
+
+/* ----------- Sobre nós ------------- */
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.image-container {
+    position: relative;
+    max-width: 50%;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text-container {
+    max-width: 50%;
+    padding-left: 20px;
+}
+
+.text-container p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
