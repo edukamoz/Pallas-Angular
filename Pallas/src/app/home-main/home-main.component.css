@@ -5,6 +5,7 @@
     color: #fff;
     font-family: "Graduate", Courier, monospace;
     text-align: center;
+    margin-top: 60px;
 }
 
 .highlight {
@@ -39,6 +40,7 @@
 .image-container img {
     max-width: 100%;
     height: auto;
+    z-index: 0;
 }
 
 /* ----------- Sobre nós ------------- */
@@ -67,9 +69,10 @@
 }
 
 .text-container p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 1.5;
     text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .title {
