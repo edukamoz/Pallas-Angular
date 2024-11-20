@@ -39,6 +39,8 @@
 .image-container img {
     max-width: 100%;
     height: auto;
+    width: 100%;
+    border-radius: 10px;
 }
 
 /* ----------- Sobre nós ------------- */
@@ -54,11 +56,6 @@
 .image-container {
     position: relative;
     max-width: 50%;
-}
-
-.image-container img {
-    width: 100%;
-    border-radius: 10px;
 }
 
 .text-container {

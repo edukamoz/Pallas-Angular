@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
 
-body {
+header {
   margin: 0;
   padding: 0;
-  z-index: 1000;
 }
 .navbar {
   background-color: #010626;
@@ -11,6 +10,7 @@ body {
   width: 100vw;
   height: 120px;
   position: fixed;
+  z-index: 1000;
 }
 .navbar-brand {
   font-family: "Graduate", Courier, monospace;
