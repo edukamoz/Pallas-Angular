@@ -5,6 +5,8 @@
   padding: 20px;
   font-family: Roboto, sans-serif;
   font-weight: bold;
+  color: white;
+  bottom: 0;
 }
 
 .footer h5 {
@@ -25,12 +27,7 @@
 
 .footer .social-icons a {
     margin-right: 10px;
-    color: white;
     display: inline-block;
-}
-
-.footer .social-icons a:hover {
-    color: #ddd;
 }
 
 .footer .rights {
@@ -40,4 +37,8 @@
 
 .footer .icon {
     fill: white;
+}
+
+.footer .icon:hover {
+  fill: rgb(113, 113, 113);
 }

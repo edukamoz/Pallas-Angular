@@ -3,6 +3,7 @@
 header {
   margin: 0;
   padding: 0;
+  margin-bottom: 50px;
 }
 .navbar {
   background-color: #010626;
@@ -11,6 +12,7 @@ header {
   height: 120px;
   position: fixed;
   z-index: 1000;
+  top: 0;
 }
 .navbar-brand {
   font-family: "Graduate", Courier, monospace;
