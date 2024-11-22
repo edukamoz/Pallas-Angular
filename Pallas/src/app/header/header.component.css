@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
 
+header {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+}
 .navbar {
   background-color: #010626;
   padding: 10px 0;
   width: 100vw;
   height: 120px;
-  z-index: 1000;
   position: fixed;
+  z-index: 1000;
   top: 0;
 }
 .navbar-brand {
