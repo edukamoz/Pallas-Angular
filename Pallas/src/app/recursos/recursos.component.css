@@ -5,10 +5,15 @@
     width: 70%;
     height: 70vh;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 120px;
     border: 3px solid #7C05F2;
     background-color: #021859;
     margin-bottom: 5%;
+}
+
+.recursos {
+  height: 100vh;
+  background: #010626;
 }
 
 .principal1{
