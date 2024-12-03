@@ -9,19 +9,6 @@
     min-height: 100vh;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-}
-
-:root {
-    --cor-de-fundo: #010626;
-    --cor-primaria: #7C05F2;
-    --cor-secundaria: #021859;
-}
-
 .Principal {
     background-color: #021859;
     margin: 50px auto;
@@ -75,7 +62,7 @@
     cursor: pointer;
 }
 
-.titulo > p {
+.titulo>p {
     text-shadow: 4px 3px black;
 }
 

@@ -1,20 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-}
-
-:root {
-    --cor-de-fundo: #010626;
-    --cor-primaria: #7C05F2;
-    --cor-secundaria: #021859;
-    --cor-erro: #ff4444;
-}
-
 .Principal {
     background-color: var(--cor-secundaria);
     margin: 50px auto;
@@ -101,8 +87,14 @@ a {
     text-shadow: 2px 3px black;
 }
 
+.Login {
+    background-color: #010626;
+    padding: 50px 0;
+}
+
 .login {
     background-color: #021859;
+    margin: 0 100px;
 }
 
 #esqueceuSenha {
