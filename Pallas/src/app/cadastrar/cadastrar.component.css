@@ -1,11 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .alinhar {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #010626;
+    min-height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+:root {
+    --cor-de-fundo: #010626;
+    --cor-primaria: #7C05F2;
+    --cor-secundaria: #021859;
 }
 
 .Principal {
-    background-color: var(--cor-secundaria);
+    background-color: #021859;
     margin: 50px auto;
     display: flex;
     flex-direction: column;
@@ -13,6 +31,7 @@
     padding: 50px;
     margin-top: 150px;
     width: 90%;
+    border-radius: 8px;
 }
 
 .titulo {
@@ -30,7 +49,7 @@
     font-family: 'Graduate';
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 #User {
@@ -50,16 +69,15 @@
 
 #Carregar {
     border-radius: 7px;
-    padding: 3px 10px 3px 10px;
+    padding: 3px 10px;
     color: black;
     border: none;
+    cursor: pointer;
 }
 
-.titulo>p {
+.titulo > p {
     text-shadow: 4px 3px black;
-    ;
 }
-
 
 form {
     display: flex;
@@ -77,10 +95,19 @@ input {
     border: none;
     box-shadow: 2px 3px black;
     margin-top: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     color: black;
     text-indent: 10px;
     font-size: 1.5rem;
+}
+
+.error-message {
+    color: #cccccc;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    text-align: left;
 }
 
 #formCad {
@@ -108,7 +135,13 @@ input {
     font-size: 23px;
     font-weight: bold;
     cursor: pointer;
-    justify-content: center;
+    background-color: white;
+}
+
+.buton:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    opacity: 0.7;
 }
 
 a {
