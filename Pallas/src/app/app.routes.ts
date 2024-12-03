@@ -6,6 +6,8 @@ import { HomeMainComponent } from './home-main/home-main.component';
 import { LoginComponent } from './login/login.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { DuvidasComponent } from './duvidas/duvidas.component';
+import { RankingComponent } from './ranking/ranking.component';
+import { RecuperarSenhaComponent } from './recuperar-senha/recuperar-senha.component';
 
 export const routes: Routes = [
   { path: '', component: HomeMainComponent },
@@ -14,11 +16,11 @@ export const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'cadastrar', component: CadastrarComponent },
   { path: 'recursos', component: RecursosComponent },
-  //{ path: 'esqueceu-senha', component: EsqueceuSenhaComponent},
-  { path: 'duvidas', component: DuvidasComponent},
+  { path: 'recuperar-senha', component: RecuperarSenhaComponent },
+  { path: 'duvidas', component: DuvidasComponent },
   //{ path: 'outros-projetos', component: OutrosProjetosComponent},
   //{ path: 'carreiras', component: CarreirasComponent},
   //{ path: 'canal-suporte', component: CanalSuporteComponent},
   //{ path: 'depoimentos', component: DepoimentosComponent},
-  //{ path: 'ranking', component: RankingComponent},
+  { path: 'ranking', component: RankingComponent },
 ];
